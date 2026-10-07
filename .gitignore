@@ -1,0 +1,56 @@
+# ===== ESP-IDF 构建产物 =====
+build/
+**/build/
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults
+managed_components/
+dependencies.lock.bak
+.espressif/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+*.bin
+*.elf
+*.map
+flasher_args.json
+*.o
+*.a
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.iml
+.settings/
+.clangd/
+.ccls-cache/
+.devcontainer/
+*.user
+*.workspace
+*.suo
+
+# ===== 敏感信息（重要！） =====
+wifi_secrets.h
+secrets.h
+**/wifi_secrets.h
+**/secrets.h
+*.key
+*.pem
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+node_modules/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.bak
+*.log
